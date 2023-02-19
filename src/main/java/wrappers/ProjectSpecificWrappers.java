@@ -35,9 +35,7 @@ public class ProjectSpecificWrappers extends GenericWrappers {
 		test.assignCategory(category);
 		test.assignAuthor(authors);	
 		invokeApp(browserName,false);
-		 new SignInPage(driver, test) .clickHelloSignIn() .enterEmail()
-		  .clickContinue() .enterPassword() .clickSignIn();
-		 
+
 	}
 		
 	@AfterSuite

@@ -19,12 +19,9 @@ public class TestCase1 extends ProjectSpecificWrappers {
 		authors="Tawfiq";
 	
 	}
-
-	
-
 	
 	
-	/*@Test(dataProvider="fetchData")
+	@Test(dataProvider="fetchData")
 	public void testCase1(String searchText) throws InterruptedException {
 		System.out.println("Running TestCase1 to search for item "+ searchText);
 		new SignInPage(driver, test)
@@ -40,20 +37,7 @@ public class TestCase1 extends ProjectSpecificWrappers {
 		.clickCart()
 		.clickDelete()
 		.quit();
-		}*/
+		}
 
 	
-	
-	@Test(dataProvider="fetchData")
-	public void testCase1(String searchText) throws InterruptedException {
-		System.out.println("Running TestCase1 to search for item "+ searchText);
-		new SearchPage(driver, test)
-		.enterSearch(searchText)
-		.clickSearch()
-		.clickSearchResult(item)
-		.clickAddtoCart()
-		.clickCart()
-		.clickDelete();
-		//.quit();
-	}
 }
