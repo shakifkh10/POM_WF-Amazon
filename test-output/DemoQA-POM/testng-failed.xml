@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [DemoQA-POM]">
+  <test thread-count="2" verbose="10" name="ToolsQA(failed)">
+    <classes>
+      <class name="testcases.TestCase1">
+        <methods>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="testCase1"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TestCase1 -->
+      <class name="testcases.TestCase2">
+        <methods>
+          <include name="testCase2"/>
+          <include name="setData"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TestCase2 -->
+    </classes>
+  </test> <!-- ToolsQA(failed) -->
+</suite> <!-- Failed suite [DemoQA-POM] -->
