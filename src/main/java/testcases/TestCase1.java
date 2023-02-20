@@ -2,8 +2,6 @@ package testcases;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pages.BookResultPage;
-import pages.LoginPage;
 import pages.SearchPage;
 import pages.SignInPage;
 import wrappers.ProjectSpecificWrappers;
