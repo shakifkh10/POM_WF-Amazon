@@ -33,7 +33,7 @@ public class SignInPage extends ProjectSpecificWrappers {
 	}
 
 	public SignInPage enterPassword(){
-		enterById("ap_password", username);
+		enterById("ap_password", password);
 		return this;
 	}
 	
